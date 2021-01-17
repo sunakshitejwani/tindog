@@ -128,3 +128,21 @@ p{
 .pricing-column{
     padding: 3% 2%;
 }
+
+/* Media queries */
+
+@media (max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+
+    h1{
+        font-size:3rem;
+    }
+
+    .title-image{
+        position: static;
+        transform: rotate(0);
+        width: 60%;
+    }
+}
